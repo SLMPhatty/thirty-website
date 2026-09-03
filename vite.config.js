@@ -8,7 +8,6 @@ export default defineConfig({
         main: resolve(__dirname, 'index.html'),
         privacy: resolve(__dirname, 'privacy.html'),
         support: resolve(__dirname, 'support.html'),
-        healthcare: resolve(__dirname, 'healthcare.html'),
       },
     },
   },
