@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/app-icon.png", "destination": "/app-icon.svg" }
+  ]
+}
