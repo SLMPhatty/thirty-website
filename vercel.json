@@ -1,5 +1,6 @@
 {
   "rewrites": [
-    { "source": "/app-icon.png", "destination": "/app-icon.svg" }
+    { "source": "/app-icon.png", "destination": "/app-icon.svg" },
+    { "source": "/favicon.ico", "destination": "/app-icon.svg" }
   ]
 }
