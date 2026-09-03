@@ -1,4 +1,8 @@
 {
+  "redirects": [
+    { "source": "/healthcare.html", "destination": "/", "permanent": true },
+    { "source": "/healthcare", "destination": "/", "permanent": true }
+  ],
   "rewrites": [
     { "source": "/app-icon.png", "destination": "/app-icon.svg" },
     { "source": "/favicon.ico", "destination": "/app-icon.svg" }
