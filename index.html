@@ -10,11 +10,11 @@
   <meta property="og:title" content="thirty | 30 seconds is all you need.">
   <meta property="og:description" content="A physician-built meditation app. Open, breathe, return to your day in 30 seconds. $4.99 lifetime — no subscription.">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://thirty-website.vercel.app">
+  <meta property="og:url" content="https://thirtystillness.com">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="thirty | 30 seconds is all you need.">
   <meta name="twitter:description" content="A physician-built meditation app. Open, breathe, return to your day in 30 seconds.">
-  <link rel="canonical" href="https://thirty-website.vercel.app">
+  <link rel="canonical" href="https://thirtystillness.com">
   <link rel="icon" type="image/png" href="app-icon.png">
   <script type="application/ld+json">
   {
@@ -24,7 +24,7 @@
     "description": "A physician-built meditation app. 30 seconds of calm — open, breathe, return to your day.",
     "applicationCategory": "HealthApplication",
     "operatingSystem": "iOS",
-    "url": "https://thirty-website.vercel.app",
+    "url": "https://thirtystillness.com",
     "author": {
       "@type": "Person",
       "name": "Dr. Seth Miller",
@@ -553,12 +553,6 @@
     .nav-links a:hover {
       color: var(--text);
     }
-    .nav-links .highlight {
-      color: var(--accent);
-    }
-    .nav-links .highlight:hover {
-      color: var(--warm);
-    }
 
     /* Doctor Section */
     .doctor-section {
@@ -598,42 +592,6 @@
       color: var(--accent);
     }
 
-    /* Healthcare CTA Banner */
-    .healthcare-banner {
-      padding: 32px 28px;
-      border-radius: 24px;
-      border: 1px solid rgba(110, 207, 207, 0.2);
-      background: linear-gradient(135deg, rgba(110, 207, 207, 0.06), rgba(165, 148, 249, 0.04));
-      display: flex;
-      align-items: center;
-      gap: 24px;
-      max-width: 720px;
-      margin: 0 auto;
-    }
-    .healthcare-banner-icon {
-      font-size: 2.4rem;
-      flex-shrink: 0;
-    }
-    .healthcare-banner h3 {
-      font-size: 1.3rem;
-      font-style: italic;
-      margin-bottom: 6px;
-    }
-    .healthcare-banner p {
-      font-size: 0.9rem;
-      margin-bottom: 10px;
-    }
-    .healthcare-banner .link {
-      color: #6ecfcf;
-      font-size: 0.9rem;
-      font-weight: 500;
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-    }
-    .healthcare-banner .link:hover {
-      text-decoration: underline;
-    }
 
     @keyframes breathe {
       0%, 100% {
@@ -740,7 +698,6 @@
       <div class="container nav-inner">
         <a href="index.html" class="nav-brand">thirty</a>
         <div class="nav-links">
-          <a href="healthcare.html" class="highlight">For Healthcare Workers</a>
           <a href="privacy.html">Privacy</a>
           <a href="support.html">Support</a>
         </div>
@@ -753,7 +710,7 @@
             <img class="brand-mark" src="app-icon.png" alt="thirty app icon">
             <h1>thirty</h1>
             <p class="tagline">30 seconds is all you need.</p>
-            <a class="store-button" href="#" aria-label="Download on the App Store">
+            <a class="store-button" href="https://apps.apple.com/us/app/30-stillness/id6760586218" aria-label="Download on the App Store">
               <svg viewBox="0 0 24 24" aria-hidden="true">
                 <path d="M16.86 12.87c.03 2.94 2.58 3.92 2.61 3.93-.02.07-.4 1.38-1.31 2.73-.79 1.16-1.61 2.32-2.9 2.34-1.27.02-1.68-.75-3.14-.75s-1.92.73-3.11.77c-1.24.05-2.18-1.24-2.98-2.39-1.63-2.35-2.88-6.63-1.2-9.56.84-1.46 2.33-2.38 3.95-2.41 1.23-.02 2.39.83 3.14.83.75 0 2.15-1.03 3.62-.88.62.03 2.35.25 3.46 1.87-.09.05-2.07 1.21-2.04 3.52ZM14.88 5.2c.66-.8 1.1-1.92.98-3.03-.95.04-2.1.63-2.77 1.43-.61.7-1.14 1.84-.99 2.93 1.06.08 2.13-.54 2.78-1.33Z"/>
               </svg>
@@ -852,6 +809,14 @@
               <h3>One-time $4.99</h3>
               <p>Pay once and keep the ritual. No subscription pressure, no trial countdown, no recurring interruptions.</p>
             </article>
+            <article class="card feature-card reveal" style="--delay: 0.3s;">
+              <div class="feature-icon">
+                <svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="2.5"/><circle cx="15.5" cy="9" r="2"/><path d="M4 19c.4-2.8 2.6-4.5 5-4.5s4.6 1.7 5 4.5"/><path d="M14 14.6c2.2.3 4 1.9 4.4 4.4"/></svg>
+              </div>
+              <h3>Meditate with friends</h3>
+              <p>Create a circle and sit together. No chat.</p>
+            </article>
+
           </div>
         </div>
       </section>
@@ -878,18 +843,6 @@
         </div>
       </section>
 
-      <section class="section">
-        <div class="container">
-          <div class="healthcare-banner reveal">
-            <div class="healthcare-banner-icon">🏥</div>
-            <div>
-              <h3>Healthcare worker?</h3>
-              <p>thirty was designed for the chaos of clinical life. See how it fits between patients, during night shifts, and in the moments you need it most.</p>
-              <a href="healthcare.html" class="link">thirty for Healthcare Workers →</a>
-            </div>
-          </div>
-        </div>
-      </section>
 
       <section class="section quote-section">
         <div class="container">
@@ -904,7 +857,7 @@
             <p class="eyebrow">Download</p>
             <h2>Keep stillness within reach.</h2>
             <p>For the in-between moments, the overstimulated afternoons, and the nights that need a gentler close.</p>
-            <a class="store-button" href="#" aria-label="Download thirty on the App Store">
+            <a class="store-button" href="https://apps.apple.com/us/app/30-stillness/id6760586218" aria-label="Download thirty on the App Store">
               <svg viewBox="0 0 24 24" aria-hidden="true">
                 <path d="M16.86 12.87c.03 2.94 2.58 3.92 2.61 3.93-.02.07-.4 1.38-1.31 2.73-.79 1.16-1.61 2.32-2.9 2.34-1.27.02-1.68-.75-3.14-.75s-1.92.73-3.11.77c-1.24.05-2.18-1.24-2.98-2.39-1.63-2.35-2.88-6.63-1.2-9.56.84-1.46 2.33-2.38 3.95-2.41 1.23-.02 2.39.83 3.14.83.75 0 2.15-1.03 3.62-.88.62.03 2.35.25 3.46 1.87-.09.05-2.07 1.21-2.04 3.52ZM14.88 5.2c.66-.8 1.1-1.92.98-3.03-.95.04-2.1.63-2.77 1.43-.61.7-1.14 1.84-.99 2.93 1.06.08 2.13-.54 2.78-1.33Z"/>
               </svg>
@@ -921,8 +874,6 @@
     <footer>
       <div class="container footer-row">
         <div class="footer-links">
-          <a href="healthcare.html">For Healthcare Workers</a>
-          <span>|</span>
           <a href="privacy.html">Privacy Policy</a>
           <span>|</span>
           <a href="support.html">Support</a>
